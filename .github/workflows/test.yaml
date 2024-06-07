@@ -19,4 +19,4 @@ jobs:
       - name: Install dependencies
         run: npm ci --no-audit
 
-      - run: npx test.ts
+      - run: npx tsx test.ts
