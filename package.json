@@ -1,7 +1,6 @@
 {
   "type": "module",
   "dependencies": {
-    "@aws-sdk/client-iot-data-plane": "3.592.0",
-    "tsx": "4.13.1"
+    "@aws-sdk/client-iot-data-plane": "3.592.0"
   }
 }
