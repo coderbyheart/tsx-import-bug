@@ -29,4 +29,6 @@ jobs:
       - name: Install tsx
         run: npm install tsx@${{ matrix.tsx-version }}
 
+      - run: npx tsx --version
+
       - run: npx tsx test.ts
