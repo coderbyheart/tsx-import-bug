@@ -13,6 +13,7 @@ jobs:
         tsx-version:
           - 4.12.x
           - 4.13.1
+      max-parallel: 1
 
     steps:
       - uses: actions/checkout@v4
